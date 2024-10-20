@@ -15,7 +15,7 @@
     <section>
         <header>
             <div class="container">
-                <div class="logo"><span>sharing</span></div>
+                <div class="logo"><span class="sharing">sharing</span></div>
                 <div class="global-navig">
                     <ol>
                         <a href="#"><li>Home</li></a>
@@ -40,21 +40,51 @@
             </div>
         </div>
 
-
+        <a href="#blog" class="a-next"></a>
     </section>
+    <div class="blog">
+        <div class="container2">
+            <h2>Blog</h2>
+            <div class="row">
+                <div class="article"><img src="images/photo1.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<button class="btn-rm">Read more</button></div>
+                <div class="article"><img src="images/photo2.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<button class="btn-rm">Read more</button></div>
+                <div class="article"><img src="images/photo3.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<button class="btn-rm">Read more</button></div>
+        </div>
+    </div>
+</div>
+
+<div class="service">
+    <div class="container3">
+        <h2>Service</h2>
+        <div class="row">
+            <div class="article"><img src="images/mini1.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.<button class="btn-rm">Read more</button></div>
+            <div class="article"><img src="images/mini2.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.<button class="btn-rm">Read more</button></div>
+            <div class="article"><img src="images/mini3.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.<button class="btn-rm">Read more</button></div>
+            <div class="article"><img src="images/mini4.png"><span class="title">LOREM IPSUM SIT DOLOR</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.<button class="btn-rm">Read more</button></div>
+        </div>
+</div>
+</div>
 
 
 
-    section.top
+
+    <!--
+
+section.top
     ^ background-image
+    ^ height: calc(100vh - 27.5px)
+    ^ display: flex
+    ^ flex-direction: column
+    ^ position: relative
     header
-        ^ background rgba
+        ^ background rgba(0, 0, 0, 0.5)
         div.container
             ^ flex
             div.logo
             nav.global-navig
-    div.into
-        ^ background rgba
+    div.intro
+        ^ background rgba rgba(0, 0, 0, 0.3)
+        ^ flex-grow: 1;
         div.container
             ^ centered flex
             div.intro-content
@@ -64,6 +94,21 @@
                     ^ flex
                     a.btn.btn-primary
                     a.btn.btn-secondary
+    a.next href="#blog"
+        ^ position absolute
+        img arrow
+
+section.blog
+    div.container
+        h2#blog
+            ::before
+            ....
+            ::after
+        div.row
+            article
+            article
+            article
+-->
 
 </body>
 </html>
