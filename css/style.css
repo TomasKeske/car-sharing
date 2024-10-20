@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FF0000;
+    --primary-font: Nunito Sans;
+    --container-width: 1088px;
+    --btn-padding: 22px 55px;
+}
+
+section {
+    background-image: url(../images/Image.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    /* UI Properties */
+
+    /* UI Properties */
+    background: #00000066 0% 0% no-repeat padding-box;
+
+    opacity: 1;
+
+}
+
+.logo {
+
+    width: 161px;
+    height: 47px;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+
+    background: transparent url('../images/Icon.svg') no-repeat;
+}
+
+h1 {
+    width: 643px;
+height: 123px;
+/* UI Properties */
+text-align: left;
+font: normal normal 900 90px/90px Nunito Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-shadow: 0px 3px 6px #00000040;
+opacity: 1;
+}
+
+a {
+    text-align: left;
+font: normal normal bold 16px/22px Nunito Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+text-decoration:none;
+}
+li:hover {
+    background: #FFFFFF33 0% 0% no-repeat padding-box;
+}
+
+.container {
+    /* UI Properties */
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.container2 {
+    /* UI Properties */
+
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+.intro {
+    flex-grow: 1;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    height: 100%;
+    background: #00000046 0% 0% no-repeat padding-box;
+}
+
+.intro-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.button-group {
+    display: flex;
+    padding: 100px;
+
+    gap: 30px;
+}
+
+li{
+display: inline-block;
+text-align: left;
+font: normal normal bold 16px/22px Nunito Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+padding: 20px;
+
+}
+
+.btn-primary {
+    border: none;
+    width: 220px;
+height: 66px;
+    background: #FF0000 0% 0% no-repeat padding-box;
+outline: none;
+box-shadow: none;
+border-radius: 40px;
+opacity: 1;
+color: white;
+display: block;
+text-transform:uppercase;
+font-weight: bold;
+}
+
+.btn-secondary {
+    border: none;
+    display: block;
+    width: 226px;
+height: 66px;
+box-shadow: none;
+outline:none;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+color: tomato;
+text-transform:uppercase;
+font-weight: bold;
+}
+
+p {
+    width: 1046px;
+height: 44px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 16px/22px Nunito Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+.logo-text{
+    color: white;
+}
+
+
+span:before {
+    color: red;
+    content: "Car";
+  }
+
+span {
+    margin: 50px;
+    white-space: nowrap;
+    text-align: left;
+font: normal normal bold 35px/47px Nunito Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+text-transform: uppercase;
+}
+
